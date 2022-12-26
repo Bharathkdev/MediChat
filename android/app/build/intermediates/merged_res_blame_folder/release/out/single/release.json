@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.chatapp-merged_res-24:/layout_launch_screen.xml.flat",
+        "source": "com.chatapp-main-25:/layout/launch_screen.xml"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/raw_splash_lottie.json.flat",
+        "source": "com.chatapp-main-25:/raw/splash_lottie.json"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.chatapp-main-25:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/drawable_icon.jpg.flat",
+        "source": "com.chatapp-main-25:/drawable/icon.jpg"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.chatapp-merged_res-24:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.chatapp-main-25:/mipmap-mdpi/ic_launcher_round.png"
+    }
+]

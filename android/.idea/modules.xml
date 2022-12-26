@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatApp.iml" filepath="$PROJECT_DIR$/.idea/modules/chatApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/chatApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/chatApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/chatApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/chatApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/chatApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/chatApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/chatApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/chatApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/909308236/chatApp.react-native-community_datetimepicker.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1624504728/chatApp.react-native-community_netinfo.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1774282478/chatApp.react-native-device-info.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-1399862793/chatApp.react-native-lottie-splash-screen.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/-363446749/chatApp.react-native-vector-icons.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1110257114/react-native-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/-1110257114/react-native-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1110257114/react-native-gradle-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1110257114/react-native-gradle-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1110257114/react-native-gradle-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1110257114/react-native-gradle-plugin.test.iml" />
+    </modules>
+  </component>
+</project>
