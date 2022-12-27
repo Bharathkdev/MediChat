@@ -88,10 +88,11 @@ export default PlaceOrder = ({offline}) => {
     ws.current.addEventListener('close', () => {
       console.log('WebSocket connection closed');
       // Attempt to reconnect to the WebSocket server
-      // Set an interval to try to reconnect every 5 seconds
-      reconnectInterval = setInterval(reconnect, 5000);
+      // Set an interval to try to reconnect every second
+      reconnectInterval = setInterval(reconnect, 1000);
     });
 
+    // Set an event listener for the 'error' event
     ws.current.addEventListener('error', (error) => {
       clearInterval(reconnectInterval);
       console.log('WebSocket connection error ', error );
@@ -129,7 +130,7 @@ export default PlaceOrder = ({offline}) => {
     ws.current = new WebSocket('ws://medichat.eu-4.evennode.com');
     ws.current.addEventListener('close', () => {
       console.log('WebSocket connection closed inside reconnect');
-      reconnectInterval = setInterval(reconnect, 5000);
+      reconnectInterval = setInterval(reconnect, 1000);
     });
     ws.current.addEventListener('open', () => {
       console.log('Reconnected to WebSocket server');
