@@ -59,7 +59,8 @@ const styles = StyleSheet.create({
     marginVertical: moderateScale(10),
   },
   closeButton: {
-    padding: moderateScale(8)
+    paddingVertical: moderateScale(8),
+    paddingRight: moderateScale(8)
   },
   messageView: {
     padding: moderateScale(8), 
@@ -189,11 +190,11 @@ export default ChatModal = ({userName, chatModalVisible, hideChatModal, webSocke
   useEffect(() => {
     if(chatModalVisible && modalOpenComplete) {
       if(filteredData?.length > 0 && newMessageCount !== 0) {
-        messageRef?.current?.scrollToIndex({index: filteredData?.length - newMessageCount, animated: false});
+        messageRef?.current?.scrollToIndex({index: filteredData?.length - newMessageCount, animated: true});
         resetNewMessageCount();
         return;
       }
-      messageRef?.current?.scrollToIndex({index: filteredData?.length - 1, animated: false});
+      messageRef?.current?.scrollToIndex({index: filteredData?.length - 1, animated: true});
     }
   }, [chatModalVisible, filteredData, modalOpenComplete]);
 
@@ -231,7 +232,7 @@ export default ChatModal = ({userName, chatModalVisible, hideChatModal, webSocke
 
   const handleNewMessage = () => {
     if(chatModalVisible) {
-      messageRef?.current?.scrollToIndex({index: filteredData?.length - 1, animated: false});
+      messageRef?.current?.scrollToIndex({index: filteredData?.length - 1, animated: true});
     }
   };
 
@@ -367,7 +368,7 @@ export default ChatModal = ({userName, chatModalVisible, hideChatModal, webSocke
                 )}
               </Modal>
 
-              <TouchableOpacity style = {{marginLeft: 20}} onPress={searchBarHandler}>
+              <TouchableOpacity style = {{marginLeft: moderateScale(15)}} onPress={searchBarHandler}>
                   <MaterialIcon name= {isSearchBarVisible ? "search-off" : "search"} color={colors.defaultDark} size={moderateScale(25)}/>
               </TouchableOpacity> 
 
@@ -395,10 +396,10 @@ export default ChatModal = ({userName, chatModalVisible, hideChatModal, webSocke
               onScroll={handleScroll}
               removeClippedSubviews
               onScrollToIndexFailed={(error) => {
-                messageRef.current.scrollToOffset({ offset: error.averageItemLength * error.index, animated: false });
+                messageRef.current.scrollToOffset({ offset: error.averageItemLength * error.index, animated: true });
                   setTimeout(() => {
                     if (filteredData.length !== 0 && messageRef.current !== null) {
-                      messageRef.current.scrollToIndex({ index: error.index, animated: false });
+                      messageRef.current.scrollToIndex({ index: error.index, animated: true });
                     }
                   }, 100);
                 }
