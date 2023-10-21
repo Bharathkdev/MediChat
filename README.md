@@ -43,3 +43,4 @@ Step 6: Click on the Search icon to search for the required message/orders in th
 Step 7: The count of unread messages will be displayed as a badge over the chat icon.
 Step 8: Turn off the internet and check whether message or order placement can be done.
 
+**Note**: Switch to main branch to access the project files.
